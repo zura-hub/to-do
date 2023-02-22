@@ -1,0 +1,107 @@
+body{
+    background: rgba(0, 0, 0, 0.652);
+}
+
+.cont{
+    padding: 30px; 
+    height: 500px;
+    
+}
+
+#listAdd{
+    width: 280px;
+    background: #828282;
+    box-shadow:  #776f6f 5px 5px 2px 2px ;
+    border: none;
+    height: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.toDoText{
+    font-family: cursive;
+    text-align: right;
+    font-size: 30px;
+    color: lightgreen;
+}
+
+.toDoBtn{
+    margin-top: 20px;
+    width: 280px;
+    background: #828282;
+    box-shadow:  #776f6f 5px 5px 2px 2px ;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(204, 195, 195);
+}
+
+.toDoBtn:hover{
+    color: rgb(227, 215, 215);
+    font-weight: bold;
+    transition: 1s;
+}
+
+#listAppend{
+    margin-top: 30px;
+    width: 280px;
+    background: #828282;
+    box-shadow:  #776f6f 5px 5px 2px 2px ;
+    border: none;
+    color: lightgreen;
+    font-family: cursive;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#del{
+    color: rgb(130, 19, 19);
+    font-weight: bold;
+    padding-left: 10px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+/* tablet and mobile */
+
+@media screen and (min-width: 768px) {
+    .toDoBorder{
+        display: block;
+        margin: auto;
+    }
+
+    .toDoText{
+        text-align: center;
+    }
+    #listAdd{
+        display: block;
+        width: 500px;
+        margin: auto;
+        height: 60px;
+    }
+
+    .toDoBtn{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 508px;
+        height: 35px;
+    }
+
+    .toDoBtn:hover{
+        color: rgb(227, 215, 215);
+        font-weight: bold;
+        transition: 1s;
+    }
+
+    #listAppend{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        width: 500px;
+        height: 20px;
+        border-radius: 5px;
+    }
+}
