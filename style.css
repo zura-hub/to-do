@@ -48,6 +48,8 @@ body{
     margin-top: 30px;
     width: 280px;
     border: none;
+    background: #828282;
+    box-shadow:  #776f6f 5px 5px 2px 2px ;
     color: lightgreen;
     font-family: cursive;
     border-radius: 5px;
@@ -97,6 +99,8 @@ body{
         display: block;
         margin: auto;
         margin-top: 20px;
+        background: #828282;
+        box-shadow:  #776f6f 5px 5px 2px 2px ;
         width: 500px;
         border-radius: 5px;
     }
